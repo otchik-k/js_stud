@@ -30,7 +30,7 @@ function range (start, end, step = 1) {
   }
 }
 
-// Функция выводитзначения элементов массива.
+// Функция выводит значения элементов массива.
 // The function outputs the values of the array elements.
 function showArray (array) {
   for (let element of array) {
@@ -38,7 +38,7 @@ function showArray (array) {
   }
 }
 
-// Функция возвращает ыумму всех элементов массива.
+// Функция возвращает сумму всех элементов массива.
 // // The function returns the sum of all the elements of the array.
 function sum (array) {
   let count = 0;
