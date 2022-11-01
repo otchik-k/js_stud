@@ -1,4 +1,4 @@
-let size = 10;
+let size = 10; // размер поля
 let str = '';
 
 for ( let i = 0; i < size; i++){
