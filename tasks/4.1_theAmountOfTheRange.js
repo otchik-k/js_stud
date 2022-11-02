@@ -1,11 +1,10 @@
-// Функция, которая принимает начальное и конечное значение и возвращает массив, содержащий все числа между ними.
-// A function that takes a start and end value and returns an array containing all the numbers between them.
+/* Функция, которая принимает начальное и конечное значение и возвращает массив,
+содержащий все числа между ними. */
 function range (start, end, step = 1) {
   let numbers = [];
   let count = 0;
   // Проверка, являются ли значения числовыми?
-  // Checking whether the values are numeric?
-  if (typeof start === 'number' && typeof end === 'number') {
+    if (typeof start === 'number' && typeof end === 'number') {
     if (start < end){
       while (start <= end){
         numbers[count] = start;
@@ -25,13 +24,11 @@ function range (start, end, step = 1) {
     }
   else {
     // Сообщение, если переменные не числовые.
-    // Message if the variables are not numeric.
     console.log ('Переданные знаяения не являются числами');
   }
 }
 
 // Функция выводит значения элементов массива.
-// The function outputs the values of the array elements.
 function showArray (array) {
   for (let element of array) {
     console.log(element);
